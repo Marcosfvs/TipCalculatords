@@ -46,7 +46,8 @@ class MainActivity : AppCompatActivity() {
             clean()
         }
     }
-    private fun clean(){
+
+    private fun clean() {
         binding.tieTotal.setText("")
         binding.tiePercentage.setText("")
         binding.tieNumberOfPeople.setText("")
